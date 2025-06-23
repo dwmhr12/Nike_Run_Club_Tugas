@@ -4,7 +4,7 @@
 
 Repositori ini berisi analisis menyeluruh terhadap ulasan pengguna aplikasi **Nike Run Club**, dilakukan melalui lima tahap utama:
 
-1. **Pengumpulan Data (Opsional)**  
+1. **Pengumpulan Data**  
    Notebook: `01-nike-run-club-reviews-data-collection.ipynb`  
    - Menggunakan library `google_play_scraper`
    - Target: Aplikasi Nike Run Club (`com.nike.plusgps`)
@@ -40,7 +40,7 @@ Repositori ini berisi analisis menyeluruh terhadap ulasan pengguna aplikasi **Ni
 ```
 nike-run-club-reviews/
 ├── data/
-│   ├── df_nike_reviews.csv                  # Dataset mentah (opsional)
+│   ├── df_nike_reviews.csv                  # Dataset mentah 
 │   └── df_nike_reviews2.csv                 # Dataset hasil preprocessing
 ├── notebooks/
 │   ├── 01-nike-run-club-reviews-data-collection.ipynb
@@ -128,7 +128,7 @@ drive.mount('/content/drive')
 
 ## 🚀 Penggunaan
 
-### 1. Pengumpulan Data (Opsional)
+### 1. Pengumpulan Data 
 
 - Jalankan `01-nike-run-club-reviews-data-collection.ipynb`
 - Hasil: `data/df_nike_reviews.csv`
